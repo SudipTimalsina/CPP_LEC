@@ -13,7 +13,6 @@ int main()
 {
     int added = sum(5,3,4);
     sum();
-    cout <<" The sum is: "<< sum(5,5);
-
+    cout <<" The sum is: "<< added;
 }
 
