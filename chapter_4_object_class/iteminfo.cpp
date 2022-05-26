@@ -5,9 +5,8 @@ class iteminfo{
     private :
     int itemid;
     float cost;
-
     public :
-    
+   
 void setdata(int it, float cst)
 {
     itemid=it;
@@ -30,4 +29,5 @@ int main()
      cout <<"\nInformation on second item ";
     i2.showdata();
     return 0;
+
 }
