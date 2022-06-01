@@ -1,3 +1,4 @@
+// program to calculate area of triangle using member function with argument and return both
 #include<iostream>
 #include<cmath>
 using namespace std;

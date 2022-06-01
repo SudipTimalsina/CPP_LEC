@@ -1,3 +1,4 @@
+// program to calculate area of triangle standard form
 #include<iostream>
 #include<cmath>
 using namespace std;
