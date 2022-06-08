@@ -12,6 +12,6 @@ int main()
     s=((a+b+c)/2) ;
     // calculating the area of triangle 
     Area=sqrt(s*(s-a)*(s-b)*(s-c)) ;
-    cout <<"The area of triangle is : "<< Area ;
+    cout <<"The area of triangle is : "<< Area <<"sq units" ;
     return 0;
 }
