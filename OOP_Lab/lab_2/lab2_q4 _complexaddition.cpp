@@ -13,12 +13,12 @@ public :
         cin >> real >>imaginary ;
     }
 
-    complex addition(complex c1,complex c2)
+    void addition(complex c1,complex c2)
     {
     complex result;
     result.real=c1.real+c2.real;
     result.imaginary=c1.imaginary+c2.imaginary;
-    cout <<"The value is : "<<result.real <<" "<<result.imaginary ;
+    cout <<"The value is : "<<result.real <<" i"<<result.imaginary ;
     }
 
 };
