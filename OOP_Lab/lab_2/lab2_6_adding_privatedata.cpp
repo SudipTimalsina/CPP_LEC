@@ -16,7 +16,7 @@ class A{
 class B{
     private :
     int b;
-    friend int add(A c, B d);
+    friend int add(A e, B f);
     public :
     void getvalue()
     {

@@ -8,12 +8,8 @@ class Time{
     public:
         void gettime(){
             cout<<"Enter time: "<<endl;
-            cout<<"\nEnter the hour: ";
-            cin>>hr;
-            cout<<"\nEnter minute: ";
-            cin>>min;
-            cout<<"\nEnter second: ";
-            cin>>sec;
+            cout<<"\nEnter the value of hour,minute,sec: ";
+            cin>>hr>>min>>sec;
         }
         void sum(Time one, Time two){
             this -> sec = one.sec+two.sec;
