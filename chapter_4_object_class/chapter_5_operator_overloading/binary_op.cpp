@@ -22,7 +22,7 @@ class binary
     {
         binary b2;
         cout <<"The value of b2 a inside overloading function is :" <<b2.a<<" "<<b2.b<<endl;
-        cout <<"The value of b2 a inside overloading function is :"<<b1.a<<" "<<b1.b<<endl; 
+        cout <<"The value of b1 a inside overloading function is :"<<b1.a<<" "<<b1.b<<endl; 
         // calling object is passed implicitly and second object is passed through argument 
         b2.a=a+b1.a;
         b2.b=b+b1.b;
