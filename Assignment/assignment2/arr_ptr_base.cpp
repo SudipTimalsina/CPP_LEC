@@ -45,7 +45,6 @@ class circle : public point
 };
 int main()
 {
-    int i=0;
     point pt;
     line ln;
     triangle tr;
@@ -54,7 +53,7 @@ int main()
 
     point *baseptr[]={&pt,&ln,&tr,&py,&cr} ;
     cout<<"Figure drawn by base pointer are :"<<endl;
-    for(i=0;i<5;i++)
+    for(int i=0;i<5;i++)
     baseptr[i]->draw();
 
 }
