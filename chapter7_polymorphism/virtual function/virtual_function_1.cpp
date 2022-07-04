@@ -14,6 +14,7 @@ class dog : public animal{
         }
         void eat(){cout<<"hi";}
 };
+
 int main()
 {
     animal *an;
