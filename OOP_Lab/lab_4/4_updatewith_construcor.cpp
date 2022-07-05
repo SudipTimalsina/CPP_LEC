@@ -7,7 +7,7 @@ class person
     string name;
     char code[20];
 
-    void getdata()
+    person()
     {
         cout<<"Enter the name of the person :"<<endl;cin>>name;
         cout<<"Enter the code number of person :"<<endl;cin>>code;
@@ -22,7 +22,7 @@ class account : public virtual person
 {   
     public:
     float payment;
-    void getdata()
+    account()
     {   
         cout <<"Enter the payment amount :"<<endl;cin>>payment;
     }
@@ -35,7 +35,7 @@ class admin: public virtual person
 {
         public :
     float exp;
-    void getdata()
+    admin()
     {
         cout <<"whats the experience in years:"<<endl;cin>>exp;
     }
@@ -46,12 +46,7 @@ class admin: public virtual person
 };
 class master: public admin,public account{
     public :
-    void getdata()
-    {
-    person::getdata();
-    account::getdata();
-    admin::getdata();
-    }
+    void getdata(){}
     void display()
     {
     cout<<"The detail of the person is........."<<endl; 
