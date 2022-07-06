@@ -61,9 +61,9 @@ int main()
     master m1;
     m1.getdata();
     m1.display();
-    int str;
-    cout <<"do you want to override the data ? IF yes then press 1";cin>>str;
-    if (str==1)
+    int str ;
+    cout <<"do you want to override the data ? IF yes then press 7";cin>>str;
+    if (str=7)
     {
     m1.getdata();
     m1.display();

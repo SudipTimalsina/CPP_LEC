@@ -90,7 +90,7 @@ class regular : public typist
     {
          cout<<"For regular typist"<<endl;
          typist::display();
-         cout <<"/n wage of the typist is:"<< sal; 
+         cout <<"\n wage of the typist is:"<< sal; 
     }
 };
 class casual : public typist

@@ -60,6 +60,4 @@ class triangle : public shape
     shp=&sh;
     shp ->area();
     return 0;
-
-
  }
