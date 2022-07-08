@@ -18,7 +18,7 @@ class stack
     {
         arr[++top]=data;
     }
-    pop()
+    t pop()
     {
         return arr[top--];
     }
