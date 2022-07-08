@@ -27,8 +27,8 @@ class calculator
 };
 int main()
 {
-    calculator intcalc(5,4);
-    calculator floatcalc(2.2,5.6);
+    calculator<int>intcalc(5,4);
+    calculator<float>floatcalc(2.2,5.6);
 
     cout<<"Int result ......"<<endl;
     intcalc.displayresults();
