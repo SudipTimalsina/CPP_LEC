@@ -45,4 +45,4 @@ class Reservation
 int main(){
 Reservation r1;
 r1.showData();
-}
+}  

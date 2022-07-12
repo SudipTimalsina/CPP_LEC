@@ -124,7 +124,7 @@ int main()
     r1.getrec();
     t1.display();
     o1.display();
-    c1.display();
+    c1.display(); 
     r1.display();
     return 0;
 

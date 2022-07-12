@@ -22,7 +22,7 @@ class vector
     }
     void display()
     {
-        cout <<"The value of sum is :"<<x<<"x "<<y<<"y "<<z<<"z"<<endl ;    
+        cout <<"The value of sum is :"<<x<<"i+ "<<y<<"j+ "<<z<<"k"<<endl ;    
     }
     friend vector operator +(vector v1,vector v2);
 };

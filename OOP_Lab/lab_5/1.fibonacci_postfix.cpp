@@ -27,11 +27,11 @@ int main()
 {
     fibo f1;
     int n;
-    cout <<"Enter how many term you want to print :"<<endl;
+    cout <<"Enter how many term you want to print :";
     cin >>n;
-    cout <<"The series is ..........."<<endl;
-    cout <<"0 ";
-    for (int i=0;i<n-1;i++)
+    cout <<"\nThe series is ..........."<<endl;
+    cout <<"0 "<<"\t1";
+    for (int i=0;i<n-2;i++)
     {   
         f1++;
         f1.display();

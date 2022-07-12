@@ -46,7 +46,6 @@ class admin: public virtual person
 };
 class master: public admin,public account{
     public :
-    void getdata(){}
     void display()
     {
     cout<<"The detail of the person is........."<<endl; 
@@ -59,17 +58,16 @@ class master: public admin,public account{
 int main()
 {
     master m1;
-    m1.getdata();
-    m1.display();
     int str ;
-    cout <<"do you want to override the data ? IF yes then press 7";cin>>str;
-    if (str=7)
+    cout <<"do you want to override the data ? IF yes then press 8";cin>>str;
+    if (str==8)
     {
-    m1.getdata();
-    m1.display();
+    master m2;
+    m2.display();
     }
     else {
         cout<<"The data is shown";
+        m1.display();
     }
     return 0;
 }

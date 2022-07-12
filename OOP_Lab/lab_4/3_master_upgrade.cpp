@@ -6,7 +6,7 @@ class person
     protected :
     string name;
     char code[20];
-
+    public :
     void getdata()
     {
         cout<<"Enter the name of the person :"<<endl;cin>>name;
@@ -65,15 +65,15 @@ int main()
 {
     master m1;
     m1.getdata();
-    m1.display();
     int str;
-    cout <<"do you want to override the data ? IF yes then press 1";cin>>str;
-    if (str==1)
+    cout <<"do you want to override the data ? IF yes then press 8  :";cin>>str;
+    if (str==8)
     {
     m1.getdata();
     m1.display();
     }
     else {
+        m1.display();
         cout<<"The data is shown";
     }
     return 0;
