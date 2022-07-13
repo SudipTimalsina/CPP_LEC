@@ -25,7 +25,7 @@ public:
 int main()
 {
     Area a;
-    a.calculateArea(1.5, 2.7, 5);
+    a.calculateArea(5, 3, 4);
     a.calculateArea(7.1, 2.2);
     a.calculateArea(3.6);
     return 0;
